@@ -1,26 +1,37 @@
-/* login.css */
+/* Set background color for the entire page */
+body {
+  background-color: #f524ac; /* Light cyan background */
+  font-family: Arial, sans-serif; /* Optional: Set a nice font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Login container styling */
 .login-container {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #f9f9f9; /* White background for the login form */
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Heading styling */
 h2 {
   text-align: center;
   font-size: 1.5em;
   color: #333;
 }
 
+/* Login form styling */
 .login-form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
+/* Input field styling */
 input {
   padding: 10px;
   font-size: 1em;
@@ -32,6 +43,7 @@ input:focus {
   border-color: #007bff;
 }
 
+/* Button styling */
 button {
   padding: 10px;
   background-color: #007bff;
@@ -45,10 +57,12 @@ button:hover {
   background-color: #0056b3;
 }
 
+/* Label styling */
 label {
   font-size: 0.9em;
 }
 
+/* Error message styling */
 .error-message {
   color: red;
   font-size: 0.9em;

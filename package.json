@@ -1,5 +1,6 @@
 {
-  "name": "lese",
+  "homepage": "https://ntlhane1058.github.io/kay",
+  "name": "ntlhane",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,13 +23,17 @@
     "react-scripts": "^5.0.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
