@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nazo/static/css/main.971ad5f7.css",
+    "main.js": "/nazo/static/js/main.ba74d5a0.js",
+    "index.html": "/nazo/index.html",
+    "main.971ad5f7.css.map": "/nazo/static/css/main.971ad5f7.css.map",
+    "main.ba74d5a0.js.map": "/nazo/static/js/main.ba74d5a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.971ad5f7.css",
+    "static/js/main.ba74d5a0.js"
+  ]
+}
