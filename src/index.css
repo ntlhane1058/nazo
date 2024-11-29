@@ -1,0 +1,114 @@
+/* Dashboard Container */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: #2a2a2a; /* Dark background for dashboard */
+  color: #f0f0f0; /* Light text color */
+  min-height: 100vh;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #3c3c3c; /* Slightly lighter background for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  color: #f0f0f0;
+}
+
+/* Product List Container */
+.product-list {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 25px;
+  background-color: #3c3c3c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+.product-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-list th,
+.product-list td {
+  border-bottom: 1px solid #555; /* Subtle bottom border */
+  padding: 12px;
+  text-align: left;
+  color: #f0f0f0;
+}
+
+.product-list th {
+  background-color: #555555; /* Darker header background */
+  color: #ffffff; /* White text color */
+  font-weight: bold;
+}
+
+.product-list tr:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Soft hover effect */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #aaaaaa; /* Light gray footer text */
+  font-size: 0.9em;
+}
+
+/* Button Styles */
+.dashboard-button {
+  border: 2px solid #ff914d; /* New border color */
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: #3c3c3c; /* Match card background */
+  color: #ff914d; /* Button text color */
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  margin: 0 8px;
+}
+
+.dashboard-button:hover {
+  background-color: #ff914d; /* Change background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Button Section */
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+/* Navigation Link Styles */
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #cccccc; /* Light gray color for links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #ff914d; /* Orange color on hover */
+}
+
+/* Specific Link Colors */
+.dashboard-link {
+  color: #8ecae6; /* Soft blue for Dashboard */
+}
+
+.user-management-link {
+  color: #ffc8dd; /* Soft pink for User Management */
+}
+
+.product-management-link {
+  color: #ffb703; /* Soft yellow for Product Management */
+}
